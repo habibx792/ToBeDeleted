@@ -1,0 +1,50 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: aliceblue;
+}
+/* manging nav bar  */
+.head{
+  background-color: black;
+  height: 100px;
+  color: white;
+  font-size: large;
+}
+.nav{
+
+  display: flex;
+  justify-content: space-between;
+}
+.infomation{
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* gap: 5px; */
+  margin-left: 5px;
+}
+.contact{
+  display: flex;
+  /* justify-content: center; */
+}
+/* main nave */
+.mainNav{
+  text-decoration: none;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+}
+.mainNav a{
+  font-size: larger;
+  color: white;
+  text-decoration: none;
+}
+.mainNav a :hover{
+  text-decoration: underline;
+}
